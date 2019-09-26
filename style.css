@@ -1,0 +1,32 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+    background: lightblue;
+}
+#rps {
+    text-align: center;
+    background: darkcyan;
+    color: white;
+    width: 50vw;
+    border-radius: 4px;
+    font-style: italic;
+}
+#row {
+    width: 100vw;
+}
+#col {
+    background: white;
+    border-radius: 3px;
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+}
+#user-guess {
+    text-align: center;
+}
+#computer-guess {
+    text-align: center;
+}
+#who-won {
+    text-align: center;
+}
