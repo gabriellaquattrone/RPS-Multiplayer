@@ -1,3 +1,17 @@
+// Your web app's Firebase configuration
+let firebaseConfig = {
+    apiKey: "AIzaSyBflJ5dNK0kQv9IjVNq0QaScm-Ma76QDEE",
+    authDomain: "rock-paper-scissors-881a2.firebaseapp.com",
+    databaseURL: "https://rock-paper-scissors-881a2.firebaseio.com",
+    projectId: "rock-paper-scissors-881a2",
+    storageBucket: "rock-paper-scissors-881a2.appspot.com",
+    messagingSenderId: "186338359684",
+    appId: "1:186338359684:web:cd1a4d6a4aa7d87ea705d1"
+  };
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
 // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
 let computerChoices = ["r", "p", "s"];
 let wins = 0;
